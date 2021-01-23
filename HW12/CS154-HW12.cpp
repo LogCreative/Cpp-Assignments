@@ -16,6 +16,10 @@
 actors_float.txt为输入文件，且用户输入的 threshold 为 60时得到的输出文件。
 */
 // THIS FILE IS UNABLE TO PASS THE COMPILATION OF GCC.
+// PLEASE USE MSVC TO COMPILE.
+// THE SOLUTION DOES NOT MEET THE REQUIREMENTS OF THE PROBLEM.
+// ONLY THE RESULT IS CORRECT.
+// PLEASE DO NOT REFER TO THIS SOLUTION.
 
 #include <iostream> 
 #include <fstream> 
