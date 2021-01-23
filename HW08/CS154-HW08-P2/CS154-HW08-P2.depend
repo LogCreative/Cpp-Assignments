@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1574125065 source:c:\users\lizil\desktop\c++\cs154-hw08\cs154-hw08-p2\library.cpp
+
+1574125065 source:c:\users\lizil\desktop\c++\cs154-hw08\cs154-hw08-p2\main.cpp
+	<iostream>
+

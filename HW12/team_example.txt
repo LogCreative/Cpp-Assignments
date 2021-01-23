@@ -1,0 +1,9 @@
+ID	Name	HP	ATK	DEF
+1	Carl	58	28	21	healer
+2	Emma	65	25	28	healer
+3	Leon	66.054	27.828	29.293	healer
+4	May	84.577	24.367	21.595
+5	Albert	98.882	27.505	29.476
+6	Bruce	86.719	22.804	23.628
+7	Paul	79.968	27.674	16.616	healer
+8	Ivy	86.747	29.786	28.03
