@@ -1,4 +1,20 @@
 ﻿// CS154-HW12.cpp
+/*
+注1：请按注释中的要求填补完程序代码，不定义其它全局变量或函数。
+注2：用户输入的是范围在 [1,100]内的整数。
+注3：该程序从文件 actors_int.txt和 actors_float.txt中读取各个人物的数据，分
+别存入一个 Actor<int>数组和一个 Actor<float>数组。两边人数不一定相等，合
+计不超过 20人，一起组成一个 team。
+注4：该程序按用户输入的 threshold值从 team中挑选符合要求的人物并输出
+到文件 team.txt。要求人物满足以下四个条件中的至少三个： 1) HP大于 threshold
+2) ATK大于 threshold/3 3) DEF大于 threshold/3 4) 具有治疗能力。
+注5：附件中的 actors_int.txt和 actors_float.txt为输入文件的格式样本，实际测
+试时使用的输入文件中人数可能变化（但不 会为零，且格式不变）。输出文件只
+有一个，即 team.txt，包含从两边挑选出来的人物。输出时的 ID按先 int后 float的顺序重新从 1开始编号， int人物内部（或 float人物内部）按原 ID从小到大
+排序。
+注6：本次作业没有运行示例，附件中的 team.txt为以附件中的 actors_int.txt和
+actors_float.txt为输入文件，且用户输入的 threshold 为 60时得到的输出文件。
+*/
 // THIS FILE IS UNABLE TO PASS THE COMPILATION OF GCC.
 
 #include <iostream> 

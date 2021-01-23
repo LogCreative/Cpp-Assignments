@@ -1,4 +1,4 @@
-//CS154-HW02-юНвсаЗ-518070910095-P1.cpp
+//CS154-HW02-P2.cpp
 
 #include<iostream>
 

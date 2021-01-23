@@ -1,4 +1,4 @@
-﻿// CS154-HW02-李子龙-518070910095-P1.cpp
+﻿// CS154-HW02-P1.cpp
 
 #include <iostream>
 

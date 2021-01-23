@@ -1,4 +1,12 @@
 ﻿// CS154-HW10.cpp
+/*注1：不能在没有注明“此处需填写代码”的地方添加代码。
+注2：用户输入的int_size是范围在[1,100]内的整数。
+注3：Cell类中包含2个私有数据成员与8个公有成员函数，没有公有数据成员或私有成员函数。2个私有数据成员分别为size与resource，都是整型数；8个成员函数的名称为Cell、~Cell、grow、eat、get_size、get_resource（虽然有8个函数，但却只有6个函数名）。
+注4：本程序模拟一个细胞培养环境，整个环境中最初的resource为500。
+注5：在while循环的每个周期中进行以下操作：初始细胞与每个已经诞生的普通细胞都会成长一次；一个普通细胞的成长会使其个体的size加1，而整个环境中的resource减1；初始细胞的成长则不会改变其size，但仍会使环境resource减1；如果一个普通细胞的size大于5，那么它将会创造一个新的普通细胞，该细胞的size为原细胞的一半（取整，舍去小数），而环境中的resource会减少相当于新细胞size的量。
+注6：在while循环的每个周期结束之前，如果环境中size最大的一个细胞的size大于10，那么初始细胞会将它吃掉，并使环境中的resource增加相当于被吃掉的细胞的size的量。
+注7：当环境中的resource减少到0或负数的时候，或当第100个普通细胞被创造之后，中断while循环。
+注8：每当有细胞成长时，输出：“Initial Cell grows, remaining resource = XX”或“Cell YY grows, remaining resource = XX”，其中XX为当前resource的值，YY为相应的普通细胞的编号。每当有细胞被创造时，输出“Cell YY is born, remaining resource = XX”。每当有细胞被吃掉时，输出“Cell YY is eaten, remaining resource = XX”。*/
 
 #include <iostream> 
 using namespace std;
